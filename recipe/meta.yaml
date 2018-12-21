@@ -1,4 +1,4 @@
-{% set version = '0.7.1' %}
+{% set version = "0.7.4" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/effsize_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/effsize/effsize_{{ version }}.tar.gz
-  sha256: 5ad34aa0c2c87db931927ebd07cc075c2ae0599932dbe360c9c8dac9f0511250
+  sha256: 0e068afb3e9acb7368a205d0467fadfc0c3d8c3b52e6b44a6ac1651d375b3855
 
 build:
   noarch: generic
