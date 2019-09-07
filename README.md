@@ -1,7 +1,7 @@
 About r-effsize
 ===============
 
-Home: http://github.com/mtorchiano/effsize
+Home: http://github.com/mtorchiano/effsize/
 
 Package license: GPL-2
 
@@ -116,10 +116,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@daler](https://github.com/daler/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
