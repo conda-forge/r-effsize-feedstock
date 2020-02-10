@@ -1,4 +1,4 @@
-{% set version = '0.7.6' %}
+{% set version = "0.7.8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/effsize_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/effsize/effsize_{{ version }}.tar.gz
-  sha256: 42951588c996fa3dfbbad31a5a4a767501115028e7d89a33f406827027d23b89
+  sha256: 66d95b3d611e434a61a1527de814e0d5b49ea9020097433a63810fc9641739f8
 
 build:
   merge_build_host: True  # [win]
