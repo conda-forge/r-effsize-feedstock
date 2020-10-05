@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/effsize_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/effsize/effsize_{{ version }}.tar.gz
-  sha256: 0bcd08e2a7f96ffd4c1a48c4af617b6cfb5a74dfa47ff5ce3770556cb64d2f89
+  sha256: fcb407644e4003089242ba873fdf3b1822f56ed054dc0ffb6a94b8739e80acd4
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -36,8 +36,7 @@ test:
 about:
   home: http://github.com/mtorchiano/effsize/
   license: GPL-2
-  summary: A collection of functions to compute the standardized  effect sizes for experiments (Cohen d, Hedges g, Cliff delta, Vargha-Delaney A).  The computation
-    algorithms have been optimized to allow efficient computation even  with very large data sets.
+  summary: A collection of functions to compute the standardized  effect sizes for experiments (Cohen d, Hedges g, Cliff delta, Vargha-Delaney A).  The computation algorithms have been optimized to allow efficient computation even  with very large data sets.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
