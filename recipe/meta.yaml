@@ -35,7 +35,7 @@ test:
 
 about:
   home: http://github.com/mtorchiano/effsize/
-  license: GPL-2
+  license: GPL-2.0-only
   summary: A collection of functions to compute the standardized  effect sizes for experiments (Cohen d, Hedges g, Cliff delta, Vargha-Delaney A).  The computation algorithms have been optimized to allow efficient computation even  with very large data sets.
   license_family: GPL2
   license_file:
