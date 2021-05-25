@@ -3,7 +3,7 @@ About r-effsize
 
 Home: http://github.com/mtorchiano/effsize/
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-effsize-feedstock/blob/master/LICENSE.txt)
 
