@@ -1,11 +1,11 @@
-About r-effsize
-===============
+About r-effsize-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-effsize-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/mtorchiano/effsize/
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-effsize-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of functions to compute the standardized  effect sizes for experiments (Cohen d, Hedges g, Cliff delta, Vargha-Delaney A).  The computation algorithms have been optimized to allow efficient computation even  with very large data sets.
 
